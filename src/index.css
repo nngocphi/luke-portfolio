@@ -1,0 +1,35 @@
+@import 'tailwindcss';
+
+@layer base {
+    body {
+        @apply font-[Space_Grotesk] text-[#f3f3f6] bg-[#0a0a0a];
+    }
+}
+
+@layer utilities {
+    @keyframes blink {
+        0%, 100% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
+    }
+
+    .animate-blink {
+        @apply animate-[blink_0.8s_step-end_infinite];
+    }
+
+    @keyframes loading {
+        from {
+            transform: translateX(-100%);
+        }
+        to {
+            transform: translateX(250%);
+        }
+    }
+
+    .animate-loading-bar {
+        @apply animate-[loading_0.8s_ease_infinite];
+    }
+}
