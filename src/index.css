@@ -1,6 +1,10 @@
 @import 'tailwindcss';
 
 @layer base {
+    html {
+        @apply scroll-smooth;
+    }
+
     body {
         @apply font-[Space_Grotesk] text-[#f3f3f6] bg-[#0a0a0a];
     }
