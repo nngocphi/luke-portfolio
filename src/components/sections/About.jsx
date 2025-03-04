@@ -101,7 +101,7 @@ export const About = () => {
             <h3 className="mb-4 text-xl font-bold">💻 Work Experience</h3>
             <div className="space-y-6 text-gray-300">
               <div>
-                <h4 className="font-semibold">
+                <h4 className="mb-1 font-semibold">
                   Freelance Web Developer (Sep 2023 - Present)
                 </h4>
                 <p>
@@ -113,7 +113,7 @@ export const About = () => {
                 </p>
               </div>
               <div>
-                <h4 className="font-semibold">
+                <h4 className="mb-1 font-semibold">
                   Web Developer at Corsiva Lab Pte Ltd. (Aug 2022 - Jan 2025)
                 </h4>
                 <p>
@@ -124,7 +124,7 @@ export const About = () => {
                 </p>
               </div>
               <div>
-                <h4 className="font-semibold">
+                <h4 className="mb-1 font-semibold">
                   UI Developer Intern at Namtech Solutions Pte Ltd. (May 2022 -
                   Jul 2022)
                 </h4>
