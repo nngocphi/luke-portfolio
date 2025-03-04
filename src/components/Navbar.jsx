@@ -17,13 +17,40 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
             luke<span className="text-blue-500">.portfolio</span>
           </a>
 
-          <button
-            className="relative z-40 h-5 w-7 cursor-pointer text-white focus:outline-none md:hidden"
-            onClick={() => setMenuOpen((prev) => !prev)}
-            aria-label="Open menu"
-          >
-            &#9776;
-          </button>
+          <div className="flex gap-4 md:hidden">
+            <a
+              href="https://www.linkedin.com/in/nguyenngocphi/"
+              className="inline-block"
+              target="_blank"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                className="icon icon-tabler icons-tabler-outline icon-tabler-brand-linkedin"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M8 11v5" />
+                <path d="M8 8v.01" />
+                <path d="M12 16v-5" />
+                <path d="M16 16v-3a2 2 0 1 0 -4 0" />
+                <path d="M3 7a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4z" />
+              </svg>
+            </a>
+            <button
+              className="h-5 w-7 cursor-pointer text-white focus:outline-none"
+              onClick={() => setMenuOpen((prev) => !prev)}
+              aria-label="Open menu"
+            >
+              &#9776;
+            </button>
+          </div>
 
           <div className="hidden items-center space-x-8 md:flex">
             {["Home", "About", "Projects", "Contact"].map((item) => (
