@@ -7,7 +7,7 @@ Built using modern web technologies, this portfolio serves as a central hub for 
 
 - **Frontend**: React 18, Tailwind CSS
 - **Form Handling**: EmailJS
-- **Deployment**: Github Pages
+- **Deployment**: Netlify
 
 ## 📌 Features
 
@@ -41,7 +41,7 @@ Built using modern web technologies, this portfolio serves as a central hub for 
 Feel free to reach out via:
 
 - **Email**: nngocphi910@gmail.com
-- **LinkedIn**: [Your Profile](https://linkedin.com/in/nguyenngocphi)
+- **LinkedIn**: [Phi Nguyen](https://linkedin.com/in/nguyenngocphi)
 
 ---
 
