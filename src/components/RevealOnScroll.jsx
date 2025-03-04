@@ -15,7 +15,7 @@ const RevealOnScroll = ({ children }) => {
           observer.unobserve(element); // Unobserve after reveal (performance boost)
         }
       },
-      { threshold: 0.2, rootMargin: "0px 0px -50px 0px" },
+      { threshold: 0.1, rootMargin: "0px 0px -30px 0px" },
     );
 
     observer.observe(element);

@@ -61,7 +61,7 @@ export const Contact = () => {
       className="flex min-h-screen items-center justify-center py-20"
     >
       <RevealOnScroll>
-        <div className="w-150 max-w-lg px-4">
+        <div className="w-full px-4 md:w-150">
           <h2 className="mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-center text-3xl font-bold text-transparent">
             Get In Touch
           </h2>
