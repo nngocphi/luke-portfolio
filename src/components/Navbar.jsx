@@ -57,7 +57,7 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
               <a
                 key={item.toLowerCase()}
                 href={`#${item.toLowerCase()}`}
-                className="text-gray-300 transition-colors hover:text-white"
+                className="text-gray-300 transition-colors duration-300 ease-in-out hover:text-white"
               >
                 {item}
               </a>

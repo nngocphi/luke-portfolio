@@ -204,7 +204,7 @@ const Projects = () => {
             {projects.map((project, index) => (
               <div
                 key={index}
-                className="rounded-xl border border-white/10 p-6 transition-all duration-300 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)]"
+                className="rounded-xl border border-white/10 p-6 transition-all duration-300 ease-in-out hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)]"
               >
                 <h3 className="mb-2 text-xl font-bold">{project.title}</h3>
                 <p className="mb-4 text-gray-300">{project.description}</p>
@@ -212,7 +212,7 @@ const Projects = () => {
                   {project.technologies.map((tech) => (
                     <span
                       key={tech}
-                      className="rounded-full bg-blue-500/10 px-3 py-1 text-sm text-blue-500 transition-all duration-300 hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)]"
+                      className="rounded-full bg-blue-500/10 px-3 py-1 text-sm text-blue-500 transition-all duration-300 ease-in-out hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)]"
                     >
                       {tech}
                     </span>
@@ -230,7 +230,7 @@ const Projects = () => {
               </div>
             ))}
           </div>
-          <div className="rounded-xl border border-white/10 p-6 transition-all duration-300 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)]">
+          <div className="rounded-xl border border-white/10 p-6 transition-all duration-300 ease-in-out hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)]">
             <h3 className="mb-2 text-xl font-bold">Other Projects</h3>
             <p className="mb-4 text-gray-300">
               I have developed and customized 50+ WordPress websites, including
